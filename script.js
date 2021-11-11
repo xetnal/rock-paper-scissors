@@ -15,7 +15,7 @@ const pcScoreRef = document.getElementById("player2");
 
 const outcomeRef = document.getElementById('outcome');
 
-alert('Whoever wins 5 rouns, win the game!')
+alert('Whoever wins 5 rounds, win the game!')
 
 function displayScore(outcome) {
   let playerScore = parseInt(playerScoreRef.textContent);

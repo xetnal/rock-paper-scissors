@@ -15,6 +15,8 @@ const pcScoreRef = document.getElementById("player2");
 
 const outcomeRef = document.getElementById('outcome');
 
+alert('Whoever wins 5 rouns, win the game!')
+
 function displayScore(outcome) {
   let playerScore = parseInt(playerScoreRef.textContent);
   let computerScore = parseInt(pcScoreRef.textContent);
